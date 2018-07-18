@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
         Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1000-1000"));
         startActivity(myIntent);
     }
+
+    public void onButton4Clicked(View v){
+        Intent intent = new Intent(getApplicationContext(),Main2Activity.class);
+        startActivity(intent);
+    }
 }
