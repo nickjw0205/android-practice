@@ -9,13 +9,35 @@
     <!--textview는 글씨를 보여줌-->
 
     <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="onButton1Clicked"
         android:text="안녕 안드로이드!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:layout_marginTop="34dp"
+        android:onClick="onButton2Clicked"
+        android:text="네이버 접속하기"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButton3Clicked"
+        android:text="전화 걸기"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="165dp" />
 
 </android.support.constraint.ConstraintLayout>
