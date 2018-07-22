@@ -14,6 +14,7 @@
     2. width    ->  뷰의 폭(가로)을 설정
 
 ##참고
+
     padding :    테두리 안쪽공간
     1. padding
     2. paddingTop
