@@ -13,6 +13,22 @@
     1. height   ->  뷰의 높이(세로)를 설정
     2. width    ->  뷰의 폭(가로)을 설정
 
+##참고
+    padding :    테두리 안쪽공간
+    1. padding
+    2. paddingTop
+    3. paddingBottom
+    4. paddingLeft
+    5. paddingRight
+-------
+    margin  :    테두리 바깥공간
+    1. layout_margin
+    2. layout_marginTop
+    3. layout_marginBottom
+    4. layout_marginLeft
+    5. layout_marginRight
+
+
 ## 값 설정
 
     1. wrap_content -> 내용물의 크기를 자동으로 맞춤. 
@@ -30,3 +46,38 @@
         1. 위, 아래, 오른쪽, 왼쪽
         2. 가로축, 세로축 가운데
         3. 베이스라인 (텍스트를 보여주는 뷰인 경우에만)
+
+## 배경색 지정
+
+    #ARGB(A: Alpha, R: Red, G: Green, B: Blue)
+
+    ex)
+    알파값 추가전
+    #ff0000 -> 빨간색
+    #00ff00 -> 녹색
+    #0000ff -> 파란색 
+
+    알파값 추가후
+    #ffff0000 -> 빨간색
+    #88ㄹㄹ0000 -> 반투명 빨간색
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
