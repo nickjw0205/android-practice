@@ -13,7 +13,9 @@
     1. height   ->  뷰의 높이(세로)를 설정
     2. width    ->  뷰의 폭(가로)을 설정
 
-## 참고
+## padding
+
+[코드](https://github.com/nickjw0205/android-practice/blob/master/SampleLinearLayout/app/src/main/res/layout/padding.xml)
 
     padding :    테두리 안쪽공간
     1. padding
@@ -65,7 +67,7 @@
 
 ## 뷰 정렬하기
 
-[코드](https://github.com/nickjw0205/android-practice/blob/master/SampleLinearLayout/app/src/main/res/layout/gravity.xml).
+[코드](https://github.com/nickjw0205/android-practice/blob/master/SampleLinearLayout/app/src/main/res/layout/gravity.xml)
 
 | 정렬속성 | 설명 |
 | :-- | :-- |
