@@ -65,12 +65,28 @@
 
 ## 뷰 정렬하기
 
+[코드](https://github.com/nickjw0205/android-practice/blob/master/SampleLinearLayout/app/src/main/res/layout/gravity.xml).
+
 | 정렬속성 | 설명 |
 | :-- | :-- |
 | layout_gravity | 부모 컨테이너의 여유 공간에 뷰가 모두 채워지지않아 여유공간이 생겼을 때 여유공간 안에서 뷰를 지정|
 | gravity | 뷰 안에 표시하는 내용물을 정렬할 때 |
 
 
+| 정렬속성 | 설명 |
+| :-- | :-- |
+| top | 위쪽 끝 |
+| bottom | 아래쪽 끝 |
+| left | 왼쪽 끝 |
+| right | 오른쪽 끝 |
+| center_vertical | 수직방향의 중앙 |
+| center_horizontal | 수평방향의 중앙 |
+| fill_vertical | 수직방향으로 여유공간만큼 확대하여 채우기 |
+| fill_horizontal | 수평방향으로 여유공간만큼 확대하여 채우기 |
+| center | 수직방향과 수평방향의 중앙 |
+| fill | 수직방향과 수평방향으로 여유공간만큼 채우기 |
+| clip_vertical | 상하 길이가 여유공간보다 클 경우에는 남는 부분을 잘라내기 |
+| clip_horizontal | 좌유 길이가 여유공간보다 클 경우에는 남는 부분을 잘라내기 |
     
 
 
