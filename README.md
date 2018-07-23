@@ -68,7 +68,7 @@
     #88ff0000 -> 반투명 빨간색
 
 
-## 뷰 정렬하기
+## gravity속성으로 뷰 정렬하기
 
 [코드](https://github.com/nickjw0205/android-practice/blob/master/SampleLinearLayout/app/src/main/res/layout/gravity.xml)
 
@@ -92,7 +92,32 @@
 | fill | 수직방향과 수평방향으로 여유공간만큼 채우기 |
 | clip_vertical | 상하 길이가 여유공간보다 클 경우에는 남는 부분을 잘라내기 |
 | clip_horizontal | 좌유 길이가 여유공간보다 클 경우에는 남는 부분을 잘라내기 |
+
+
+## 상대레이아웃 뷰 배치 속성
+### 부모 컨테이너와의 상대적 위치 이용 
+| 속성 | 설명 |
+| :-- | :-- |
+| layout_alignParentTop | 부모컨테이너의 위쪽과 뷰의 위쪽을 맞춤 |
+| layout_alignParentBottom | 부모 컨테이너의 아래쪽과 뷰의 아래쪽을 맞춤 |
+| layout_alignParentLeft | 부모 컨테이너의 왼쪽과 뷰의 왼쪽을 맞춤 |
+| layout_alignParentRight | 부모 컨테이너의 오른족과 뷰의 오른쪽을 맞춤 |
+| layout_centerHorizontal | 부모 컨테이너의 수평 방향 중앙에 배치함 |
+| layout_centerVertical | 부모 컨테이너의 수직 방향 중앙에 배치함 |
+| layout_centerParent | 부모 컨테이너의 수평과 수직 방향에 배치함 |
     
+### 부모 컨테이너가 아닌 다른 뷰와의 상대적 위치를 이용
+| 속성 | 설명 |
+| :-- | :-- |
+| layout_above | 지정한 뷰의 위쪽에 위치함 |
+| layout_below | 지정한 뷰의 아래쪽에 위치함 |
+| layout_toLeftOf | 지정한 뷰의 왼쪽에 위치함 |
+| layout_toRightOf | 지정한 뷰의 오른쪽에 위치함 |
+| layout_alignTop | 지정한 뷰의 위쪽과 맞춤 |
+| layout_alignBottom | 지정한 뷰의 아래쪽과 맞춤 |
+| layout_alignLeft | 지정한 뷰의 왼쪽과 맞춤 |
+| layout_alignRight | 지정한 뷰의 오른쪽과 맞춤 |
+| layout_alignBaseline | 지정한 뷰의 내용물의 아래쪽 기준선을 맞춤 |
 
 
 
