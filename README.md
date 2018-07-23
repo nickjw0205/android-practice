@@ -6,7 +6,7 @@
 | 리니어 레이아웃 | 박스 모델 |
 | 상대 레이아웃  | 규칙 모델 |
 | 프레임 레리아웃 | 싱글 모델 |
-| 테이블 레이아웃의| 격자 모델 |
+| 테이블 레이아웃 | 격자 모델 |
 
 ## layout
 
@@ -98,7 +98,7 @@
 
 [코드](https://github.com/nickjw0205/android-practice/blob/master/SampleRelativeLayout/app/src/main/res/layout/activity_main.xml)
 
-### 부모 컨테이너와의 상대적 위치 이용 
+### 1. 부모 컨테이너와의 상대적 위치 이용 
 | 속성 | 설명 |
 | :-- | :-- |
 | layout_alignParentTop | 부모컨테이너의 위쪽과 뷰의 위쪽을 맞춤 |
@@ -109,7 +109,7 @@
 | layout_centerVertical | 부모 컨테이너의 수직 방향 중앙에 배치함 |
 | layout_centerParent | 부모 컨테이너의 수평과 수직 방향에 배치함 |
     
-### 부모 컨테이너가 아닌 다른 뷰와의 상대적 위치를 이용
+### 2. 부모 컨테이너가 아닌 다른 뷰와의 상대적 위치를 이용
 | 속성 | 설명 |
 | :-- | :-- |
 | layout_above | 지정한 뷰의 위쪽에 위치함 |
@@ -122,9 +122,10 @@
 | layout_alignRight | 지정한 뷰의 오른쪽과 맞춤 |
 | layout_alignBaseline | 지정한 뷰의 내용물의 아래쪽 기준선을 맞춤 |
 
+## 테이블 레이아웃
 
-
-
+| shrinkColumns | 부모 컨테이너의 폭에 맞게 강제 축소 |
+| stretchColumns | 부모 컨테이너의 여유 공간을 모두 채우기 위해 각 열의 폭을 강제 확장 |
 
 
 
