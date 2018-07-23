@@ -14,8 +14,8 @@
         android:textColor="#ffff0000"
         android:textSize="24dp"
         android:background="#ffffff00"
-        android:padding="20dp"
         />
+    android:padding="20dp"
 
     <TextView
         android:id="@+id/textView7"
