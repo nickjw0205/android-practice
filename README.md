@@ -95,6 +95,9 @@
 
 
 ## 상대레이아웃 뷰 배치 속성
+
+[코드](https://github.com/nickjw0205/android-practice/blob/master/SampleRelativeLayout/app/src/main/res/layout/activity_main.xml)
+
 ### 부모 컨테이너와의 상대적 위치 이용 
 | 속성 | 설명 |
 | :-- | :-- |
