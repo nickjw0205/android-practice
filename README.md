@@ -150,7 +150,7 @@
 ~~~
 
 
-1. textColor
+#### 1. textColor
 -----
 
 | Alpha 값 | 결과 |
@@ -159,7 +159,7 @@
 | "00" | 투명 |
 | "88" | 반투명 |
 
-2. textSize
+#### 2. textSize
 ------
 | 문자열 크기 | 사이즈 |
 | :-- | :-- |
@@ -167,7 +167,7 @@
 | "sp" | 40sp |
 | "px" | 40px |
 
-3. textStyle 
+#### 3. textStyle 
 -------
 
 | 문자열 스타일 | 결과 |
@@ -177,7 +177,7 @@
 | "italic" | 기울임 |
 | "bolditalic" | 굵고 기울임 |
 
-4. typeFace 
+#### 4. typeFace 
 --------
 
 | 문자열 폰트 |
@@ -187,7 +187,7 @@
 | "serif" |
 | "monospace" |
 
-5. maxLines
+#### 5. maxLines
 
     텍스트 뷰에서 표시하는 문자열의 최대 줄 수
 
