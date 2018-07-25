@@ -128,8 +128,68 @@
 | :-- | :-- |
 | stretchColumns | 부모 컨테이너의 여유 공간을 모두 채우기 위해 각 열의 폭을 강제 확장 |
 
+## 기본 위젯
+------
+
+### 1. text
+
+~~~java
+    <TextView
+            android:id="@+id/Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#88aabbff"
+            android:padding="4dp"
+            android:text="여기에 사용자 이름을 입력하세요."
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#ffff8888"
+            android:maxLines="1"
+            android:gravity="center"
+            />
+~~~
 
 
+1. textColor
+-----
+
+| Alpha 값 | 결과 |
+| :-- | :-- |
+| "FF" | 불투명 |
+| "00" | 투명 |
+| "88" | 반투명 |
+
+2. textSize
+------
+| 문자열 크기 | 사이즈 |
+| :-- | :-- |
+| "dp" | 40dp |
+| "sp" | 40sp |
+| "px" | 40px |
+
+3. textStyle 
+-------
+
+| 문자열 스타일 | 결과 |
+| :-- | :-- |
+| "normal" | 기본 |
+| "bold" | 굵게 |
+| "italic" | 기울임 |
+| "bolditalic" | 굵고 기울임 |
+
+4. typeFace 
+--------
+
+| 문자열 폰트 |
+| :-- |
+| "normal" |
+| "sans" |
+| "serif" |
+| "monospace" |
+
+5. maxLines
+
+    텍스트 뷰에서 표시하는 문자열의 최대 줄 수
 
 
 
